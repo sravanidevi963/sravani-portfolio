@@ -1,0 +1,86 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.hero-section{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    padding-top:100px;
+}
+
+.profile-img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid white;
+    box-shadow:0 0 25px rgba(255,255,255,0.4);
+}
+
+.about-img{
+    width:300px;
+    border-radius:20px;
+}
+
+.skill-card{
+    transition:0.4s;
+    border-radius:20px;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+}
+
+.project-card{
+    transition:0.4s;
+    border-radius:20px;
+}
+
+.project-card:hover{
+    transform:scale(1.03);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+.typing-text{
+    color:#00d4ff;
+    margin-top:10px;
+}
+
+.progress{
+    height:25px;
+    border-radius:20px;
+}
+
+.progress-bar{
+    font-weight:bold;
+}
+
+footer{
+    letter-spacing:1px;
+}
+
+@media(max-width:768px){
+
+.profile-img{
+    width:250px;
+    height:250px;
+}
+
+.hero-section{
+    text-align:center;
+}
+
+}
